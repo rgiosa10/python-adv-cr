@@ -3,10 +3,11 @@ import json
 
 fake = Faker()
 
+number_of_colors = 20
 value_or_more = 4
 
 # Use Python's Faker library to generate a list of twenty colors. Call it color_list.
-color_list = [fake.color_name() for item in range(20)]
+color_list = [fake.color_name() for item in range(number_of_colors)]
 
 # Function to remove any duplicates from color_list.
 def remove_dups(list_input:list):
