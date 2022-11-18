@@ -21,6 +21,8 @@
 ## Description
 This repo includes a finish pipeline drawing on all the different skills learned so far including: leveraging `Faker` to create list, writing and reading JSON files, using a `@pytest.mark.parametrize()` to test a function, utilizing list and dictionary comprehensions.
 
+Additional validation of the type of items inside of a list is included. The `removes_dups()` includes a check where if items inside of the list are not a `str` type then it will print to the user to "Please input a list with strings inside."  I 
+
 <br>
 
 ## Setup/Installation Requirements

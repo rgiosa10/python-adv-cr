@@ -22,9 +22,14 @@ def remove_dups(list_input:list):
     if not list_input:
         return False
     if isinstance(list_input, list):
-        color_dict_no_duplicates = {color: None for color in list_input}
-        color_list_no_duplicates = list(color_dict_no_duplicates.keys())
-        return color_list_no_duplicates
+        all_str_list = [isinstance(item, str) for item in list_input]
+        all_str_dict = {key: None for key in all_str_list}
+        if (len(all_str_dict) == 1) and (True in all_str_dict.keys()):
+            color_dict_no_duplicates = {color: None for color in list_input}
+            color_list_no_duplicates = list(color_dict_no_duplicates.keys())
+            return color_list_no_duplicates
+        else:
+            return False
     else:
         return False
 
