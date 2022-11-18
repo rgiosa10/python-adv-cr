@@ -2,7 +2,7 @@
 
 #### By Ruben Giosa
 
-#### This repo includes a finish pipeline drawing on all the different skills learned so far.  
+#### This repo includes an exercise for making a finish pipeline drawing based on different skills learned so far.  
 
 <br>
 
@@ -11,15 +11,15 @@
 * Python
 * Git
 * Markdown
-* Jupyter Notebooks
+* JSON
 * `.gitignore`
 * `requirements.txt`
+* Pytest
 
 </br>
 
 ## Description
-
-
+This repo includes a finish pipeline drawing on all the different skills learned so far including: leveraging `Faker` to create list, writing and reading JSON files, using a `@pytest.mark.parametrize()` to test a function, utilizing list and dictionary comprehensions.
 
 <br>
 
