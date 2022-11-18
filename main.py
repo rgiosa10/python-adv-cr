@@ -17,7 +17,6 @@ def remove_dups(list_input:list):
 
     Returns:
         list: Returns list that is absent any duplicates, or if argument was incorrect returns False
-
     """
     if not list_input:
         return False
@@ -43,6 +42,6 @@ else:
     # Read color_dict back out of the JSON file
     with open("./data/color_data.json", "r") as json_file:
         color_dict = json.load(json_file)
-        
+
         # Print string saying the color name and length of name, if value is value_or_more or greater
         greater_four_values = [print(f"{key}: length of color name is {value}") for key, value in color_dict.items() if value >= value_or_more]
